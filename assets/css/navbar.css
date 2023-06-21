@@ -88,3 +88,43 @@ nav img {
         order: 5;
     }
 }
+
+@media screen and (min-width: 769px) {
+    body {
+        display: flex;
+    }
+    nav {
+        height: 100%;
+    }
+    ul {
+        flex-direction: column;
+    }
+    ul li {
+        width: 70%;
+        padding: 60px 20px;
+        font-size: 2em;
+    }
+    nav img {
+        width: 10%;
+    }
+    .secondItem {
+        order: 2;
+    }
+    
+    .thirdItem {
+        order: 3;
+    }
+    .logo {
+        width: 70%;
+        order: 1
+    }
+    .fourthItem {
+        order: 4;
+    }
+    .fifthItem {
+        order: 5;
+    }
+    main {
+        display: inline-block;
+    }
+}

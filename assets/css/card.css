@@ -60,7 +60,6 @@ button {
     h1 {
         font-size: 2rem;
         text-align: start;
-        margin: 20px;
     }
     .cards-container {
         display: flex;
@@ -69,5 +68,15 @@ button {
     }
     .card {
         width: 45%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .cards-container {
+        flex-wrap: nowrap;
+    }
+
+    .card {
+        margin-right: 10px;
     }
 }
